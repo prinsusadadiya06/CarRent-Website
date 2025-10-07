@@ -1,0 +1,436 @@
+/* header  */
+
+.top-contact {
+    background-color: #2490b9;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* Navbar */
+.main-navbar {
+    background-color: #083254;
+}
+
+.logo {
+    margin-top: -40px;
+}
+
+.main-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.main-navbar .navbar-brand img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+/* section 1 */
+.hero {
+    position: relative;
+    display: flex;
+}
+
+.hero-text {
+    position: absolute;
+    left: 9%;
+}
+
+.hero-text h1 span {
+    display: block;
+    background: white;
+    color: #0c3a5f;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.f1 {
+    max-width: 300px;
+}
+
+.f2 {
+    max-width: 220px;
+}
+
+.f3 {
+    width: 400px;
+}
+
+.f4 {
+    max-width: 170px;
+}
+
+.car-image {
+    width: 100%;
+}
+
+/* section 3 */
+.sec-3 {
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #0c3a5f;
+}
+
+/* section 4 */
+.allheading {
+    color: #00365d;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 50px 0px;
+}
+
+.main {
+    width: 90%;
+    border: 2px solid #00365d;
+    border-radius: 5px;
+}
+
+.part2 img {
+    width: 40%;
+}
+
+.content {
+    color: #00365d;
+    font-size: 13px;
+    width: 100%;
+}
+
+.cnt1 {
+    font-size: 10px;
+    font-weight: 800;
+    color: #00365d;
+}
+
+/* section 5 */
+.car-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.car-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.car-footer {
+    background-color: #0d3b66;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.car-footer button {
+    background-color: white;
+    color: #0d3b66;
+    font-weight: 600;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.car-footer button:hover {
+    background-color: #e6e6e6;
+}
+
+/* section 6 */
+.card-btn {
+    border: 3px solid #00365d;
+    color: #00365d;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: -15px;
+
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.card-cnt {
+    font-size: 10px;
+    color: #00365d;
+    font-weight: 800;
+}
+
+.review {
+    font-size: 10px;
+    color: #00365d;
+    font-weight: 800;
+}
+
+.box {
+    background-color: #00365d;
+    width: 15%;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+
+.tittle {
+    font-size: 25px;
+    font-weight: 800;
+    color: #7c94a6;
+}
+
+/* section 7 */
+.sec-7 {
+    margin-top: 70px;
+}
+
+.stats-section {
+    background: url('./cars\ photo.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.stats-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.stats-content {
+    position: relative;
+    z-index: 2;
+}
+
+.stat-item h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* section 8 */
+.main8 {
+    border: 2px solid #00365d;
+    border-radius: 5px;
+
+}
+
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #002347;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+
+.service-text {
+    text-align: center;
+    font-weight: 600;
+    color: #002347;
+    font-size: 14px;
+}
+
+
+.card-custom {
+    background-color: #0d3c61;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonial-container {
+    border: 3px solid #0d3c61;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.map-img {
+    width: 300px;
+}
+
+.star-rating {
+    color: gold;
+    font-size: 1.3rem;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* SECTION 9 */
+.form-container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid #003366;
+    border-radius: 6px;
+}
+
+.form-title {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    color: #003366;
+    border: 2px solid #003366;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+label {
+    font-weight: 600;
+}
+
+
+.input,
+.select,
+textarea {
+    background-color: #0a2c53;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.input::placeholder,
+textarea::placeholder {
+    color: #ccc;
+    font-weight: 400;
+}
+
+.btn-submit {
+    background-color: #0a2c53;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+
+
+/* scetion 10 */
+/* .part1 img {
+    width: 95%;
+}
+
+.borderline {
+    border: 3px solid #0a2c53;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.blog1-cnt {
+    width: 95%;
+}
+
+.pt-2 img {
+    width: 90%;
+}
+
+.borderline2 {
+    border: 3px solid #0a2c53;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.blog2-cnt {
+    width: 1100px;
+} */
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* footer  */
+.footer {
+    background-color: #2b91b6;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    background: white;
+    color: #2b91b6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    width: 20%;
+}
